@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1000283446943",
+    "firebase_url": "https://gamavision-v01.firebaseio.com",
+    "project_id": "gamavision-v01",
+    "storage_bucket": "gamavision-v01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000283446943:android:2a562d0b9f550ab3",
+        "android_client_info": {
+          "package_name": "com.example.fauziachmadharuna.gamavision"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000283446943-eplqttblj5s675ti9hkpghcackpnc6b0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fauziachmadharuna.gamavision",
+            "certificate_hash": "11bee3f5e5463b7b7f9a53ec12fe406b25588748"
+          }
+        },
+        {
+          "client_id": "1000283446943-q7b86n82hc3g4oocvi7kiu3t1gp3ma3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB87xKTNiUrLdzeas3DUaVcqHn4AeXj0p8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000283446943-q7b86n82hc3g4oocvi7kiu3t1gp3ma3j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

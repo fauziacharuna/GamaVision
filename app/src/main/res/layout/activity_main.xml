@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fauziachmadharuna.gamavision.MainActivity"
+    android:background="@drawable/background">
+
+
+   <!--<EditText-->
+       <!--android:id="@+id/et_email"-->
+       <!--android:inputType="textEmailAddress"-->
+       <!--android:hint="Email"-->
+       <!--android:padding="10dp"-->
+       <!--android:textColorHint="@color/hintColor"-->
+       <!--android:layout_width="match_parent"-->
+       <!--android:layout_height="wrap_content"-->
+       <!--android:layout_centerVertical="true"-->
+       <!--android:textColor="@color/colorAccent"/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/editText2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignLeft="@+id/et_email"-->
+        <!--android:layout_alignStart="@+id/et_email"-->
+        <!--android:layout_alignTop="@+id/et_email"-->
+        <!--android:layout_marginTop="60dp"-->
+        <!--android:hint="Password"-->
+        <!--android:inputType="textPassword"-->
+        <!--android:padding="10dp"-->
+        <!--android:textColorHint="@color/hintColor"-->
+        <!--android:textColor="@color/colorAccent"/>-->
+
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_login"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/editText2"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="25dp"-->
+        <!--android:background="@drawable/btn_login" />-->
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="match_parent"
+        android:layout_marginTop="400dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

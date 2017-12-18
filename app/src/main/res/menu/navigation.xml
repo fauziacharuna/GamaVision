@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_event"
+        android:icon="@drawable/ic_event"
+        android:title="@string/title_event" />
+
+    <item
+        android:id="@+id/navigation_collaboration"
+        android:icon="@drawable/ic_collaboration"
+        android:title="@string/title_collaboration" />
+
+    <item
+        android:id="@+id/navigation_sale"
+        android:icon="@drawable/ic_sale"
+        android:title="@string/title_sale" />
+
+</menu>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GamaVision</string>
+    <string name="title_activity_bottom_menu">BottomMenu</string>
+    <string name="title_event">Event</string>
+    <string name="title_collaboration">Collaboration</string>
+    <string name="title_sale">Sale</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
