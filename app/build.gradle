@@ -35,6 +35,9 @@ dependencies {
 
     apply plugin: 'com.google.gms.google-services'
     compile 'com.github.msayan:tutorial-view:v1.0.3'
+    compile 'com.android.support:recyclerview-v7:26.1.0'
+    compile 'com.github.apl-devs:appintro:v4.2.2'
+
 
 }
 

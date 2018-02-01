@@ -5,14 +5,9 @@
     tools:context="com.example.fauziachmadharuna.gamavision.CollaborationFragment">
 
     <!-- TODO: Update blank fragment layout -->
-
-    <ListView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/list_item"
-        android:layout_gravity="center_horizontal"
-        >
-    </ListView>
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/title_profile" />
 
 </FrameLayout>

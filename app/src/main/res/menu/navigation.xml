@@ -15,5 +15,9 @@
         android:id="@+id/navigation_sale"
         android:icon="@drawable/ic_sale"
         android:title="@string/title_sale" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/title_profile"/>
 
 </menu>
