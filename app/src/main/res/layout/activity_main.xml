@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.fauziachmadharuna.gamavision.MainActivity"
-    android:background="@drawable/background">
+    android:background="@drawable/login_slide">
 
 
    <!--<EditText-->
@@ -42,13 +42,14 @@
         <!--android:layout_centerHorizontal="true"-->
         <!--android:layout_marginTop="25dp"-->
         <!--android:background="@drawable/btn_login" />-->
-    <com.google.android.gms.common.SignInButton
+    <Button
         android:id="@+id/sign_in_button"
-        android:layout_width="match_parent"
-        android:layout_marginTop="400dp"
-
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="125dp"
+        android:background="@drawable/login_ugm_logo" />
 
 </RelativeLayout>

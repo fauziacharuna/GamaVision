@@ -41,14 +41,14 @@ public class MainActivity extends AppCompatActivity {
     public static final int RequestSignInCode = 7;
     public FirebaseAuth firebaseAuth;
     public GoogleApiClient googleApiClient;
-    com.google.android.gms.common.SignInButton signInButton;
+    Button signInButton;
     TextView LoginUserName, LoginUserEmail;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        signInButton = (SignInButton) findViewById(R.id.sign_in_button);
+        signInButton = (Button) findViewById(R.id.sign_in_button);
         firebaseAuth = FirebaseAuth.getInstance();
 
         GoogleSignInOptions googleSignInOptions = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
@@ -82,13 +82,15 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == RequestSignInCode){
-            GoogleSignInResult googleSignInResult = Auth.GoogleSignInApi.getSignInResultFromIntent(data);
-            if (googleSignInResult.isSuccess()){
-                GoogleSignInAccount googleSignInAccount= googleSignInResult.getSignInAccount();
-                FirebaseUserAuth(googleSignInAccount);
-            }
-        }
+        Intent intent = new Intent(MainActivity.this,IntroActivity.class);
+        startActivity(intent);
+//        if (requestCode == RequestSignInCode){
+//            GoogleSignInResult googleSignInResult = Auth.GoogleSignInApi.getSignInResultFromIntent(data);
+//            if (googleSignInResult.isSuccess()){
+//                GoogleSignInAccount googleSignInAccount= googleSignInResult.getSignInAccount();
+//                FirebaseUserAuth(googleSignInAccount);
+//            }
+//        }
     }
 
     public void FirebaseUserAuth(GoogleSignInAccount googleSignInAccount) {

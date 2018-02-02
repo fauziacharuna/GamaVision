@@ -3,6 +3,7 @@
     <color name="colorPrimary">#003d61</color>
     <color name="colorPrimaryDark">#192d41</color>
     <color name="colorAccent">#faf9f9</color>
+    <color name="baseUGMColor">#0e2b4e</color>
     <color name="hintColor">#ffffff</color>
     <color name="EventColor">#F5A623</color>
     <color name="SaleColor">#4A90E2</color>
