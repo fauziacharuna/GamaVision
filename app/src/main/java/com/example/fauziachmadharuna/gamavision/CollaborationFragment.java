@@ -84,9 +84,9 @@ public class CollaborationFragment extends Fragment {
             TextView textViewGroup=(TextView)view.findViewById(R.id.name_group_1);
 
 
-
-            imageViewGroup.setImageResource(avatarGroup[position]);
-            textView.setText(GroupName[position]);
+//
+//            imageViewGroup.setImageResource(avatarGroup[position]);
+//            textView.setText(GroupName[position]);
             return view;
         }
 

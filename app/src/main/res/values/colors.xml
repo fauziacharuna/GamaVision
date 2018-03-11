@@ -9,4 +9,7 @@
     <color name="SaleColor">#4A90E2</color>
     <color name="Collaboration">#40AF19</color>
     <color name="Background">#ffffff</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+
 </resources>
