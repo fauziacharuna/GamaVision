@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GamaVision.iml" filepath="$PROJECT_DIR$/GamaVision.iml" />
+      <module fileurl="file://F:\AndroidStudioProjects\GamaVision\GamaVision.iml" filepath="F:\AndroidStudioProjects\GamaVision\GamaVision.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://F:\AndroidStudioProjects\GamaVision\app\app.iml" filepath="F:\AndroidStudioProjects\GamaVision\app\app.iml" />
     </modules>
   </component>
 </project>
